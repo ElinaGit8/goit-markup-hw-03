@@ -256,7 +256,7 @@ ul {
   font-family: Roboto;
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.87;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--black);
@@ -282,29 +282,20 @@ ul {
   margin-right: 0;
   margin-left: 0;
 }
-.section-title {
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: var(--black);
-}
 
 /* portfolio-part */
 
 .porfolio {
-  display: inline;
+  display: flex;
   align-items: center;
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .projects-section-list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
-  margin-bottom: 94px;
 }
 .projects-section-item {
   flex-basis: calc((100% - 270px) / 9);
@@ -345,8 +336,7 @@ ul {
 .button-list {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .button-item {
   margin-right: 8px;
@@ -382,16 +372,15 @@ ul {
 .team-section {
   background-color: #f5f4fa;
   padding-top: 94px;
-  padding-bottom: 47px;
+  padding-bottom: 94px;
 }
 .teammates-list {
   display: flex;
   align-items: center;
-  margin-bottom: 50px;
 }
 .team-card {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
 }
 .teammate-name {
   font-family: Roboto;
