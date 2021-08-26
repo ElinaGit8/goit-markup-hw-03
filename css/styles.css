@@ -267,13 +267,13 @@ ul {
 
 .activity-section {
   padding-top: 47px;
-  padding-bottom: 47px;
+  padding-bottom: 94px;
   background-color: var(--white);
 }
 
 .activity-list {
   display: flex;
-  margin-bottom: 47px;
+  /* margin-bottom: 47px; */
 }
 .activity-item {
   margin-right: 30px;
